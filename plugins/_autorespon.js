@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'R-Txzy tidak aktif' : banned ? 'kamu dibanned' : 'R-Txzy disini',
-                '©R-Txzy',
+                isBanned ? 'KupyetBotz tidak aktif' : banned ? 'kamu dibanned' : 'KupyetBotz disini',
+                '©KupyetBotz',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -40,9 +40,9 @@ handler.all = async function (m, { isBlocked }) {
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Ketuk Tombol Di Bawah Ya
 ║
-╠═ ©2021 Rpg wabot-aq
+╠═ ©2022 Rpg wabot-aq
 ╠═ Script original by Nurutomo
-╠═〘 R-TXZY〙 ═`.trim(), '© R-Txzy', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
+╠═〘JUNiARTA〙 ═`.trim(), '© KupyetBotz', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
 }
 
     // salam
